@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>تحليل بودكاست بالذكاء الاصطناعي</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎙️ تحليل بودكاست وتحديد المتحدثين</h1>
+
+    <input type="file" id="audioInput" accept="audio/*">
+    <button onclick="analyzeAudio()">🔍 تحليل الملف</button>
+
+    <div id="loading" class="hidden">⏳ جاري التحليل...</div>
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
